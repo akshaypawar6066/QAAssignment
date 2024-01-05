@@ -59,7 +59,7 @@ public class LoginPageTest extends BrowserUtility {
 		loginPage.verifyForgotPasswordButtonFunctionality(ConfigReader.getProperty("forgotPasswordLink"));
 	}
 	
-	@Test
+	@Test()
 	public void verifyThePasswordRecoveryFunctionality() throws IOException
 	{
 		LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
